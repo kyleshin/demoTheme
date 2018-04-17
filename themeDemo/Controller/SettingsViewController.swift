@@ -46,7 +46,8 @@ class SettingsViewController: UIViewController {
     }
     
     deinit {
-        NotificationCenter.default.removeObserver(self)
+        
+        NotificationCenter.default.removeObserver(self, name: .themeChanged, object: nil)
     }
     
     //MARK:- Functions

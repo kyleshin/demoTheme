@@ -23,7 +23,7 @@ class PetListViewController : UITableViewController {
     }
     
     deinit {
-        NotificationCenter.default.removeObserver(self)
+        NotificationCenter.default.removeObserver(self, name: .themeChanged, object: nil)
     }
     
     //MARK:- TableView Functions
