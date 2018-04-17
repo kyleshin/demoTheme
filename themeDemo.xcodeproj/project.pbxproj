@@ -17,6 +17,8 @@
 		27DB2A21207E739800BDD0FD /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DB2A20207E739800BDD0FD /* Pet.swift */; };
 		27DB2A25207E76AD00BDD0FD /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DB2A24207E76AD00BDD0FD /* Theme.swift */; };
 		27DB2A27207E7B3900BDD0FD /* UIColor+ThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DB2A26207E7B3900BDD0FD /* UIColor+ThemeColors.swift */; };
+		27F6A3322086970400E6327F /* Notification+Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F6A3312086970400E6327F /* Notification+Name.swift */; };
+		27F6A334208697F400E6327F /* PetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F6A333208697F400E6327F /* PetType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		27DB2A20207E739800BDD0FD /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
 		27DB2A24207E76AD00BDD0FD /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		27DB2A26207E7B3900BDD0FD /* UIColor+ThemeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+ThemeColors.swift"; sourceTree = "<group>"; };
+		27F6A3312086970400E6327F /* Notification+Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Name.swift"; sourceTree = "<group>"; };
+		27F6A333208697F400E6327F /* PetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				27DB2A26207E7B3900BDD0FD /* UIColor+ThemeColors.swift */,
+				27F6A3312086970400E6327F /* Notification+Name.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -90,6 +95,7 @@
 			children = (
 				276E9AC82074BCE200F627E2 /* PetListCell.swift */,
 				27DB2A20207E739800BDD0FD /* Pet.swift */,
+				27F6A333208697F400E6327F /* PetType.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -178,7 +184,9 @@
 				27DB2A21207E739800BDD0FD /* Pet.swift in Sources */,
 				27DB2A25207E76AD00BDD0FD /* Theme.swift in Sources */,
 				276E9AB32074BC1200F627E2 /* AppDelegate.swift in Sources */,
+				27F6A334208697F400E6327F /* PetType.swift in Sources */,
 				276E9AC72074BC7D00F627E2 /* PetListViewController.swift in Sources */,
+				27F6A3322086970400E6327F /* Notification+Name.swift in Sources */,
 				27DB2A27207E7B3900BDD0FD /* UIColor+ThemeColors.swift in Sources */,
 				27644A5B207E97C3000D7DFE /* SettingsViewController.swift in Sources */,
 			);

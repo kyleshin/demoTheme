@@ -67,9 +67,3 @@ class SettingsViewController: UIViewController {
 
 }
 
-extension Notification.Name {
-    
-    static let themeChanged = Notification.Name("themeChanged")
-    
-}
-

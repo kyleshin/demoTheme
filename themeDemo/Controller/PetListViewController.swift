@@ -50,13 +50,13 @@ class PetListViewController : UITableViewController {
     
     //MARK:-
     
-    func setupCellColors(_ cell: PetListCell){
+    private func setupCellColors(_ cell: PetListCell){
         cell.backgroundColor = Theme.current.standardBackgroundColor
         cell.petNameLabel.textColor = Theme.current.standardTextColor
         cell.petTypeLabel.textColor = Theme.current.standardTextColor
     }
     
-    func setupBackgroundAndNavBarColor(){
+    private func setupBackgroundAndNavBarColor(){
         view.backgroundColor = Theme.current.viewControllerBackgroundColor
     }
     

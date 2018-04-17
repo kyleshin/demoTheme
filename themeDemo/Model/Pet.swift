@@ -14,13 +14,6 @@ struct Pet {
     var petPhoto: UIImage?
 }
 
-enum PetType: String {
-    case Cat
-    case Dog
-    case Bird
-    case Fish
-}
-
 class PetDataProvider {
     static let sharedProvider = PetDataProvider()
     

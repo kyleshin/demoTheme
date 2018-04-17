@@ -26,7 +26,6 @@ enum Theme: Int {
         UserDefaults.standard.set(rawValue, forKey: Keys.currentTheme)
         UINavigationBar.appearance().tintColor = standardTintColor
         UINavigationBar.appearance().barTintColor = viewControllerBackgroundColor
-
     }
     
     var standardTextColor: UIColor {
